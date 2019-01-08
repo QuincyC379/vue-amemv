@@ -39,6 +39,7 @@ module.exports = {
     }
   },
   module: {
+    //noParse:[/videojs-contrib-hls/],
     rules: [
       // ...(config.dev.useEslint ? [createLintingRule()] : []),
       {
